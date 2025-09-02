@@ -1,22 +1,31 @@
 #include <stdio.h>
 
-// Desafio Super Trunfo - Países
-// Tema 1 - Cadastro das Cartas
-// Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
-// Siga os comentários para implementar cada parte do desafio.
-//Teste larissa
+int main(){
+    int Número_de_pontos_turistísticos, populaçao;
+    char Estado [1], Código [3], Carta, Nome_da_cidade[50];
+    float Área, PIB;
+    // Eu separei em partes o codigo para uma melhor visualização e explicação sobre.
 
-int main() {
-    // Sugestão: Defina variáveis separadas para cada atributo da cidade.
-    // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
-    
-    // Cadastro das Cartas:
-    // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
-    // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
-    
-    // Exibição dos Dados das Cartas:
-    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
-    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
+
+    printf("Carta 1: \n");
+    printf("Estado: A \n");
+    printf("Código: A01 \n");
+    printf("Nome Da Cidade: Goiânia \n");
+    printf("Área: 729,296km² \n");
+    printf("PIB: 38.483,54R$ \n");
+    printf("Número de Pontos Turísticos: 43 \n");
+    // Ambas as partes eu fiz igual, tanto em km², quanto em R$, para um melhor entendimento sobre o assunto.
+    printf("Carta 2: \n");
+    printf("Estado: B \n");
+    printf("Código: B02 \n");
+    printf("Nome Da Cidade: Porto Alegre \n");
+    printf("Área: 495,977km² \n");
+    printf("PIB: 54.647,38R$ \n");
+    printf("Número de Pontos Turísticos: 38\n");
+    // Ja aqui no código eu usei o \n para uma melhor visualização do código, botei todas as informações em ordem iguais de ambas as cartas e fiz a separação entre a Carta 1 e Carta 2.
+
+
 
     return 0;
+
 }
